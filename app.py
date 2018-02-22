@@ -19,7 +19,7 @@ def updateData(frame=None):
     label.place(x=140, y=130)
     label = Label(frame, text=data[5]['XLM']['lastTradePrice'])
     label.place(x=140, y=155)
-    root.after(3000, updateData)
+    root.after(20000, updateData)
 
 root = Tk()
 
@@ -54,5 +54,5 @@ label.place(x=70, y=130)
 label = Label(frame, text="XLM (INR)   : ")
 label.place(x=70, y=155)
 starttime=time.time()
-root.after(3000, updateData)
+root.after(20000, updateData)
 root.mainloop()
