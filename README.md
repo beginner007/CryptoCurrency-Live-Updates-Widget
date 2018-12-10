@@ -4,6 +4,9 @@ A crypto-currency live update widget for my Desktop
 
 Data Source: [BITBNS](https://bitbns.com)
 
+## License
+https://en.wikipedia.org/wiki/BSD_licenses
+
 ## How to use
 
 Clone the repo and run
