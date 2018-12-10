@@ -2,6 +2,8 @@
 
 A crypto-currency live update widget for my Desktop
 
+Data Source: [BITBNS](https://bitbns.com)
+
 ## How to use
 
 Clone the repo and run
